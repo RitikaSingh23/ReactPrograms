@@ -1,0 +1,46 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "empno": 1001,
+      "name": "suraj",
+      "designation": "admin",
+      "salary": 34500
+    },
+    {
+      "id": "89a9",
+      "empno": "e002",
+      "name": "Faraz",
+      "designation": "Admin",
+      "salary": "34500"
+    },
+    {
+      "id": "e441",
+      "empno": "e003",
+      "name": "Viplov Sana",
+      "designation": "Eng",
+      "salary": "76000"
+    },
+    {
+      "id": "6716",
+      "empno": "e005",
+      "name": "rahul",
+      "designation": "admin",
+      "salary": "88888"
+    },
+    {
+      "id": "da08",
+      "empno": "e006",
+      "name": "sanju",
+      "designation": "peon",
+      "salary": "4000"
+    },
+    {
+      "id": "6cfd",
+      "empno": "e007",
+      "name": "Manju",
+      "designation": "admin",
+      "salary": "45000"
+    }
+  ]
+}
