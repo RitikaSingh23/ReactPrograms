@@ -3,6 +3,7 @@ import Layout from "./layout";
 import About from "./about";
 import Home from "./home";
 import Contact from "./contact";
+import Not from "./notfound";
 const App=()=>{
   return(
     <>
@@ -15,6 +16,7 @@ const App=()=>{
         <Route path="home" element={<Home/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="contact" element={<Contact/>}/>
+        <Route path="*" element={<Not/>}/>
 
       </Route>
     </Routes>
