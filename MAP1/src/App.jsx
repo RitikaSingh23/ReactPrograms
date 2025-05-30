@@ -75,14 +75,14 @@
   //     "City":"Jabalpur",
   //     "fees":19000
   //   }]
-//   const ans=name.map((key)=>{
-//     return(
-//       <tr>
-        // <td>{key.id}</td>
-        // <td>{key.name}</td>
-        // <td>{key.fees}</td>
-        // <td>{key.City}</td>
-        // <td>{key.Age}</td>
+  //   const ans=name.map((key)=>{
+  //     return(
+  //       <tr>
+    // <td>{key.id}</td>
+    // <td>{key.name}</td>
+    // <td>{key.fees}</td>
+    // <td>{key.City}</td>
+    // <td>{key.Age}</td>
 //       </tr>
 //     )
 //   })
@@ -105,30 +105,86 @@
 
 
 /*------------------------------------------array of object from anaother file ---------------------------------*/
-import Student from "./StudentData";
+// import EmpData from "./EmpData"
+// const App=()=>{
+//   const ans=EmpData.map((key)=>{
+//     return(
+//       <>
+//       <tr>
+//         <td>{key.id}</td>
+//         <td>{key.name}</td>
+//         <td>{key.salary}</td>
+//         <td>{key.City}</td>
+//         <td>{key.Age}</td>
+//       </tr>
+//       </>
+//     )
+//   })
+//    return(
+//     <>
+//       <table border={1}>
+//         <tr>
+//           <th>ID</th>
+//           <th>NAME</th>
+//           <th>SALARY</th>
+//           <th>CITY</th>
+//           <th>AGE</th>
+//         </tr>
+//           {ans}  
+//       </table>
+//     </>
+//   )
+// }
+// export default App;
+
+
+/*----------------------------------making different components-------------------------------*/
+// import EmpData from "./EmpData"
+// import EmpDesign from "./EmpDesign"
+// const App=()=>{
+//   const ans=EmpData.map((key)=><EmpDesign
+//   id={key.id}
+//   name={key.name}
+//   city={key.City}
+//   age={key.Age}
+//   sal={key.salary}
+// />)
+//    return(
+//     <>
+//       <table border={1}>
+//         <tr>
+//           <th>ID</th>
+//           <th>NAME</th>
+//           <th>CITY</th>
+//           <th>AGE</th>
+//           <th>SALARY</th>
+//         </tr>
+//           {ans}  
+//       </table>
+//     </>
+//   )
+// }
+// export default App;
+
+
+
+import ProductData from "./ProductData";
+import ProductDesign from "./ProductDesign";
 const App=()=>{
-  const ans=Student.map((key)=>{
-    return(
-      <>
-      <tr>
-        <td>{key.id}</td>
-        <td>{key.name}</td>
-        <td>{key.fees}</td>
-        <td>{key.City}</td>
-        <td>{key.Age}</td>
-      </tr>
-      </>
-    )
-  })
+  const ans=ProductData.map((key)=><ProductDesign
+  pid={key.pid}
+  pname={key.pname}
+  qty={key.qty}
+
+/>)
    return(
     <>
       <table border={1}>
         <tr>
           <th>ID</th>
-          <th>NAME</th>
-          <th>FEES</th>
-          <th>CITY</th>
-          <th>AGE</th>
+          <th>PRODUCT NAME</th>
+          <th>QUANTITY</th>
+          
         </tr>
           {ans}  
       </table>
