@@ -97,6 +97,7 @@
 
 /*------------------------spread operator----------------------------*/
 import { useState } from "react";
+import axios from "axios";
 
 const App=()=>{
   const [input,setinput]=useState({});
@@ -108,8 +109,10 @@ const App=()=>{
       console.log({input})
   }
 
-  const Result=()=>{
-    alert(`Your name is ${name} and your city is ${city} your roll number is ${roll} and your fees is ${fees}`)
+  const Result=async()=>{
+    let api="http://localhost:3000/Student"
+    const res=await axios.post(api,input)
+    alert(`success}`)
   }
 
   return(
