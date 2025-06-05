@@ -95,7 +95,7 @@
 // export default App;
 
 
-
+/*------------------------spread operator----------------------------*/
 import { useState } from "react";
 
 const App=()=>{
@@ -105,7 +105,7 @@ const App=()=>{
       let value=e.target.value;
 
       setinput(values=>({...values,[name]:value}))
-      console.log({name:name values:value})
+      console.log({input})
   }
 
   const Result=()=>{
