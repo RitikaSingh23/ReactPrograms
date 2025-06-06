@@ -96,6 +96,44 @@
 
 
 /*------------------------spread operator----------------------------*/
+// import { useState } from "react";
+// import axios from "axios";
+
+// const App=()=>{
+//   const [input,setinput]=useState({});
+//   const Handel=(e)=>{
+//       let name =e.target.name;
+//       let value=e.target.value;
+
+//       setinput(values=>({...values,[name]:value}))
+//       console.log({input})
+//   }
+
+//   const Result=async()=>{
+//     let api="http://localhost:3000/Student"
+//     const res=await axios.post(api,input)
+//     alert(`success}`)
+//   }
+
+//   return(
+//     <>
+//     <h1>Welcome to my App</h1>
+//     <h1>Application Form</h1>
+//     Name: <input type="text" name="name" onChange={Handel} /><br></br><br></br>
+//     City: <input type="text" name="city" onChange={Handel} /><br></br><br></br>
+//     Rollno: <input type="text" name="roll" onChange={Handel} /><br></br><br></br>
+//     Fees: <input type="text" name="fees" onChange={Handel} /><br></br><br></br>
+//     <button onClick={Result}>submit</button>
+//     </>
+//   )
+// }
+// export default App;
+
+
+
+
+/*------------------------------task--------------------*/
+
 import { useState } from "react";
 import axios from "axios";
 
@@ -121,8 +159,8 @@ const App=()=>{
     <h1>Application Form</h1>
     Name: <input type="text" name="name" onChange={Handel} /><br></br><br></br>
     City: <input type="text" name="city" onChange={Handel} /><br></br><br></br>
-    Rollno: <input type="text" name="roll" onChange={Handel} /><br></br><br></br>
-    Fees: <input type="text" name="fees" onChange={Handel} /><br></br><br></br>
+    Empno: <input type="text" name="empno" onChange={Handel} /><br></br><br></br>
+    Degination: <input type="text" name="deg" onChange={Handel} /><br></br><br></br>
     <button onClick={Result}>submit</button>
     </>
   )

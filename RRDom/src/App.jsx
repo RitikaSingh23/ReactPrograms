@@ -6,9 +6,6 @@ import Contact from "./Pages/contact";
 import Service from "./Pages/service";
 import Join from "./Pages/join";
 
-
-
-
 const App=()=>{
   return(
     <>

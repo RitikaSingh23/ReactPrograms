@@ -1,0 +1,25 @@
+{
+  "Employ": [
+    {
+      "Empno": 101,
+      "Name": "Ritika",
+      "City": "jhansi",
+      "Degicnation": 2200,
+      "id": "83d1"
+    },
+    {
+      "id": "ce24",
+      "name": "ritk",
+      "city": "sdsd",
+      "empno": "4546",
+      "deg": "sdsdsd"
+    },
+    {
+      "id": "b3c8",
+      "name": "ritksdsd",
+      "city": "sdsdasassa",
+      "empno": "45467889",
+      "deg": "sds"
+    }
+  ]
+}
