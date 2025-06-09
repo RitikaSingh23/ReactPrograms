@@ -1,0 +1,25 @@
+{
+  "Employyyy": [
+    {
+      "Empno": 101,
+      "Name": "Ritika",
+      "City": "jhansi",
+      "Degicnation": 2200,
+      "id": "83d1"
+    },
+    {
+      "id": "b1c9",
+      "name": "Gauri",
+      "city": "Chindwara",
+      "empno": "1002",
+      "deg": "manager"
+    },
+    {
+      "id": "970c",
+      "name": "Farhan",
+      "city": "Kanpur",
+      "empno": "1003",
+      "deg": "employee"
+    }
+  ]
+}
