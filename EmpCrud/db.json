@@ -1,13 +1,6 @@
 {
   "Employyyy": [
     {
-      "Empno": 101,
-      "Name": "Ritika",
-      "City": "jhansi",
-      "Degicnation": 2200,
-      "id": "83d1"
-    },
-    {
       "id": "b1c9",
       "name": "Gauri",
       "city": "Chindwara",
@@ -19,6 +12,20 @@
       "name": "Farhan",
       "city": "Kanpur",
       "empno": "1003",
+      "deg": "employee"
+    },
+    {
+      "id": "51e9",
+      "name": "Anjali",
+      "city": "Bhopal",
+      "empno": "1004",
+      "deg": "employee"
+    },
+    {
+      "id": "2ced",
+      "name": "Ritika Singh",
+      "city": "jhansi",
+      "empno": "1001",
       "deg": "employee"
     }
   ]

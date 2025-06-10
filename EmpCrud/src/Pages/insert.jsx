@@ -1,8 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-
 const Insertt=()=>{
-
   const [input,setinput]=useState({});
   const Handel=(e)=>{
       let name =e.target.name;
