@@ -25,6 +25,7 @@ const Edit=()=>{
    const handleSubmit=async()=>{
     let api=`http://localhost:3000/Employyyy/${id}`;
     const response = await axios.put(api, mydata);
+    alert("Changed")
    
    }
 
@@ -34,12 +35,11 @@ const Edit=()=>{
            
           Edit Employee No : <input type="text" name="empno" value={mydata.empno} onChange={handleInput} />
           <br />
-          Edit Name : <input type="text" name="name" value={mydata.name}
-          onChange={handleInput} />
+          Edit Name : <input type="text" name="name" value={mydata.name} onChange={handleInput} />
           <br />
-          Edit Designation : <input type="text" name="designation" value={mydata.deg} onChange={handleInput} />
+          Edit Designation : <input type="text" name="deg" value={mydata.deg} onChange={handleInput} />
           <br />
-          Edit City : <input type="text" name="salary" value={mydata.city} onChange={handleInput} />
+          Edit City : <input type="text" name="city" value={mydata.city} onChange={handleInput} />
           <br />
           <button onClick={handleSubmit}> Edit Save!</button>    
         </>

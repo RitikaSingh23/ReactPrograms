@@ -12,14 +12,21 @@
       "name": "Anjali",
       "city": "Bhopal",
       "empno": "1004",
-      "deg": "employee"
+      "deg": "Worker"
     },
     {
       "id": "2ced",
-      "name": "Ritika Singh",
+      "name": "Ritika ",
       "city": "jhansi",
       "empno": "1001",
       "deg": "employee"
+    },
+    {
+      "id": "5fbe",
+      "name": "Raghav",
+      "city": "Mumbai",
+      "empno": "1005",
+      "deg": "worker"
     }
   ]
 }

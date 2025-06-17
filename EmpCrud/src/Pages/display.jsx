@@ -42,8 +42,8 @@ const Display=()=>{
       <thead>
         <tr>
           <th>Sno</th>
-          <th>Emp Number</th>
-          <th>Employee Name</th>
+          <th>EmpNo</th>
+          <th>Name</th>
           <th>Designation</th>
           <th>City </th>
         </tr>
