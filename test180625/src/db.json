@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": "af1e",
+      "pno": "1002",
+      "pname": "bread",
+      "pqty": "5",
+      "price": "25",
+      "name": "farhan"
+    },
+    {
+      "id": "3b5f",
+      "pno": "1001",
+      "pname": "milk",
+      "pqty": "2",
+      "price": "60",
+      "name": "Ritika"
+    },
+    {
+      "id": "200c",
+      "pno": "1003",
+      "pname": "rice",
+      "pqty": "2",
+      "price": "80",
+      "name": "Anjali"
+    },
+    {
+      "id": "bd5f",
+      "pno": "1004",
+      "pname": "chocolate",
+      "pqty": "2",
+      "price": "50",
+      "name": "Anshi"
+    }
+  ]
+}

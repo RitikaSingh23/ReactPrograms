@@ -1,14 +1,5 @@
-// const Display=()=>{
-//     return(
-//         <>
-//         <h1>Welcome to display page</h1>
-//         </>
-//     )
-// }
-// export default Display;
 import { useState, useEffect } from "react";
 import axios from "axios";
-// import Table from 'react-bootstrap/Table';
 const Display=()=>{
   const [mydata, setMydata] = useState([]);
   const loadData=async()=>{
