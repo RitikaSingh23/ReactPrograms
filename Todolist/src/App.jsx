@@ -1,6 +1,6 @@
 import { useSelector,useDispatch } from "react-redux";
 import { useState } from "react";
-import { addtotask ,deletetask} from "./todo";
+import { addtotask ,deletetask,completetask,incompletetask} from "./todo";
 
 
 const App=()=>{
@@ -15,8 +15,16 @@ const ans =data.map((key)=>{
     <>
     <tr>
       <td>{sno}</td>
-      <td>{key.work}</td>
+
+      <td>
+        {key.status=="incomplete"?(<>{key.work}</>):(<><span style={{color:"red",textDecoration:"line-through"}}>{key.work}</span></>)}
+      </td>
+      <td>
+        {key.status=="incomplete"?"incomplete":"completed"}
+      </td>
       <td><button onClick={()=>dispatch(deletetask(key.id))} > Delete</button></td>
+      <td><button onClick={()=>dispatch(completetask(key.id))}>Complete</button></td>
+      <td><button onClick={()=>dispatch(incompletetask(key.id))}>Incomplete</button></td>
     </tr>
     </>
   )
@@ -26,14 +34,16 @@ return(
   <>
   <h1> My to do list </h1>
   Enter task:<input type="text" value={txt} onChange={(e)=>{settxt(e.target.value)}} />
-  <button onClick={()=>{dispatch(addtotask({id:Date.now(),work:txt}))}} > Add task </button>
+  <button onClick={()=>{dispatch(addtotask({id:Date.now(),work:txt,status:"incomplete"}))}} > Add task </button>
   <br></br>
   <table border={2}>
       <tr>
       <th>Sno.</th>
       <th>Tasks</th>
+      <th>Status</th>
       <th>Delete</th>
-      <th>Edit</th>
+      <th>complete</th>
+      <th>Incomplete</th>
     </tr>
     {ans}
   </table>
