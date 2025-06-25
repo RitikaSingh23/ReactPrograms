@@ -30,8 +30,17 @@ const todoSlice=createSlice({
                     state.task[i].status="incomplete"
                 }
             }
+        },
+        editsave:(state,actions)=>{
+            for(var i=0; i<state.task.length;i++)
+            {
+                if(state.task[i].id==actions.payload.id)
+                {
+                    state.task[i].work=actions.payload.work
+                }
+            }
         }
     }
 })
-export const {addtotask,deletetask,completetask,incompletetask}=todoSlice.actions;
+export const {addtotask,deletetask,completetask,incompletetask,editsave}=todoSlice.actions;
 export default todoSlice.reducer;
