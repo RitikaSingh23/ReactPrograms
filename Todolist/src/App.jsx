@@ -37,7 +37,7 @@ const ans =data.map((key)=>{
       <td>
         {key.status=="incomplete"?"incomplete":"completed"}
       </td>
-      <td><button onClick={()=>dispatch(deletetask(key.id))} > Delete</button></td>
+      <td><button onClick={()=>dispatch(deletetask(key.id))} > Delete</button></td>           
       <td><button onClick={()=>dispatch(completetask(key.id))}>Complete</button></td>
       <td><button onClick={()=>dispatch(incompletetask(key.id))}>uncomplete</button></td>
       <td><button onClick={()=>{myedit(key.id,key.work)}}>Edit</button></td>

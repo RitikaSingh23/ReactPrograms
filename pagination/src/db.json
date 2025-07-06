@@ -1,0 +1,39 @@
+{
+  "page": [
+    {
+      "name": "Ritika",
+      "id": "1",
+      "city": "Jhansi"
+    },
+    {
+      "name": "Guri",
+      "id": "2",
+      "city": "Nagpur"
+    },
+    {
+      "id": "3",
+      "name": "Farhan",
+      "city": "Kanpur"
+    },
+    {
+      "id": "4",
+      "name": "Rishika",
+      "city": "Jhansi "
+    },
+    {
+      "id": "5",
+      "name": "Anjali ",
+      "city": "Bhopal"
+    },
+    {
+      "id": "6",
+      "name": "Anshi ",
+      "city": "Bhopal"
+    },
+    {
+      "id": "7",
+      "name": "Shivam",
+      "city": "Bhihar"
+    }
+  ]
+}
